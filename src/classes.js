@@ -18,3 +18,5 @@ function createProject(title) {
 
     return { addTask, removeTask, taskCount, getTasks };
 }
+
+module.exports = { createProject };
