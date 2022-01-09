@@ -10,18 +10,58 @@ body {
     font-family: "Rubik";
 }
 
-header {
-    display: flex;
-    flex-direction: row;
-    border-bottom: 1px solid black;
-    padding: 10px;
-    gap: 10px;
+button:active {
+    transform: translateY(2px);
 }
 
 footer {
     display: flex;
     justify-content: center;
     padding: 15px;
+    background-color: #abd2fa;
+    border: 1px solid black;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    padding-bottom: -10px;
+    gap: 20px;
+    background-color: #abd2fa;
+}
+
+input:active,
+input:focus {
+    outline: none;
+}
+
+.addBtn {
+    background-color: #091540;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    color: #f0f8ff;
+    border-radius: 10px;
+    border: #f0f8ff;
+    cursor: pointer;
+    font-size: larger;
+    padding: 10px;
+}
+
+.createBtn {
+    height: 30px;
+    width: 76px;
+    padding: 3px;
+}
+
+.addBtn:hover {
+    background-color: #f0f8ff;
+    color: #091540;
+}
+
+.addBtn:active {
+    background-color: #f0f8ff;
+    box-shadow: inset 2px 3px 10px 1px rgba(0, 0, 0, 0.8);
 }
 
 .container {
@@ -30,13 +70,55 @@ footer {
     height: 100%;
 }
 
+.hiddenDiv {
+    display: none;
+}
+
 .main {
     display: flex;
+    flex-direction: row;
     height: 100%;
     width: 100%;
     flex: 1;
 }
 
+.mainHeader {
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.newProjectForm {
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+    gap: 6px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.sideBar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    width: 250px;
+    background-color: #7692ff;
+    border-right: 1px solid black;
+}
+
+.sideBarHeader {
+    font-size: x-large;
+}
+
+#newProjectTitle {
+    height: 30px;
+    border-radius: 30px;
+    color: #091540;
+    border: 1px solid black;
+    text-align: center;
+}
+
 #todoIcon {
     width: 100px;
+    height: 100px;
 }

@@ -10,10 +10,39 @@
     <body>
         <div class="container">
             <header>
-                <img src="todoIcon" alt="To-Do List Icon" />
-                <h1>To-Do List</h1>
+                <img id="todoIcon" alt="To-Do List Icon" />
+                <h1 class="mainHeader">To-Do List</h1>
             </header>
-            <div class="main"></div>
+            <div class="main">
+                <div class="sideBar">
+                    <h3 class="sideBarHeader">My Projects</h3>
+                    <div class="projectList"></div>
+                    <div class="newProjectDiv">
+                        <button class="addBtn" onclick="toggleForm();">
+                            + Add Project
+                        </button>
+                        <div class="hiddenDiv">
+                            <form
+                                onsubmit="return false;"
+                                class="newProjectForm"
+                            >
+                                <input
+                                    type="text"
+                                    id="newProjectTitle"
+                                    placeholder="Project Name"
+                                    required
+                                />
+                                <input
+                                    type="submit"
+                                    class="addBtn createBtn"
+                                    value="Create"
+                                />
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="taskArea"></div>
+            </div>
             <footer>Made with &#128420; by Joshua Hinchey.</footer>
         </div>
     </body>
