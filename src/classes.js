@@ -1,4 +1,6 @@
 function createProject(title) {
+    this.title = title;
+
     let tasks = [];
 
     const createTask = (name, dueDate, description, priority) => {
@@ -16,7 +18,7 @@ function createProject(title) {
 
     const taskCount = () => tasks.length;
 
-    return { addTask, removeTask, taskCount, getTasks };
+    return { title, addTask, removeTask, taskCount, getTasks };
 }
 
 module.exports = { createProject };

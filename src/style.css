@@ -37,6 +37,13 @@ input:focus {
     outline: none;
 }
 
+ul {
+    list-style-type: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
 .addBtn {
     background-color: #091540;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
@@ -46,6 +53,15 @@ input:focus {
     cursor: pointer;
     font-size: larger;
     padding: 10px;
+    align-self: center;
+    justify-self: center;
+}
+
+.closeIcon {
+    align-self: flex-end;
+    font-size: 20px;
+    margin: 6px;
+    cursor: pointer;
 }
 
 .createBtn {
@@ -96,7 +112,31 @@ input:focus {
     align-items: center;
 }
 
+.projectList {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.projects {
+    font-size: large;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.projects > li {
+    width: max-content;
+    padding: 4px;
+    border-radius: 2px;
+}
+
+.projects > li:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
 .sideBar {
+    text-align: center;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -104,6 +144,8 @@ input:focus {
     width: 250px;
     background-color: #7692ff;
     border-right: 1px solid black;
+    align-content: center;
+    flex-shrink: 2;
 }
 
 .sideBarHeader {

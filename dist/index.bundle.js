@@ -1,5 +1,4 @@
 /******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./node_modules/css-loader/dist/cjs.js!./src/style.css":
@@ -8,6 +7,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -26,7 +26,7 @@ var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "@font-face {\n    font-family: \"Rubik\";\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") format(\"truetype\");\n}\n\nbody {\n    background-color: #f0f8ff;\n    height: 100vh;\n    margin: 0;\n    font-family: \"Rubik\";\n}\n\nbutton:active {\n    transform: translateY(2px);\n}\n\nfooter {\n    display: flex;\n    justify-content: center;\n    padding: 15px;\n    background-color: #abd2fa;\n    border: 1px solid black;\n}\n\nheader {\n    display: flex;\n    flex-direction: row;\n    border-bottom: 1px solid black;\n    padding: 5px;\n    padding-bottom: -10px;\n    gap: 20px;\n    background-color: #abd2fa;\n}\n\ninput:active,\ninput:focus {\n    outline: none;\n}\n\n.addBtn {\n    background-color: #091540;\n    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);\n    color: #f0f8ff;\n    border-radius: 10px;\n    border: #f0f8ff;\n    cursor: pointer;\n    font-size: larger;\n    padding: 10px;\n}\n\n.createBtn {\n    height: 30px;\n    width: 76px;\n    padding: 3px;\n}\n\n.addBtn:hover {\n    background-color: #f0f8ff;\n    color: #091540;\n}\n\n.addBtn:active {\n    background-color: #f0f8ff;\n    box-shadow: inset 2px 3px 10px 1px rgba(0, 0, 0, 0.8);\n}\n\n.container {\n    display: flex;\n    flex-direction: column;\n    height: 100%;\n}\n\n.hiddenDiv {\n    display: none;\n}\n\n.main {\n    display: flex;\n    flex-direction: column;\n    height: 100%;\n    width: 100%;\n    flex: 1;\n}\n\n.mainHeader {\n    margin-top: 50px;\n    font-size: 40px;\n}\n\n.newProjectForm {\n    display: flex;\n    flex-direction: column;\n    padding: 6px;\n    gap: 6px;\n    margin-top: 10px;\n    align-items: center;\n}\n\n.sideBar {\n    display: flex;\n    flex-direction: column;\n    text-align: center;\n    height: 100%;\n    width: 250px;\n    background-color: #7692ff;\n    border-right: 1px solid black;\n}\n\n.sideBarHeader {\n    font-size: x-large;\n}\n\n#newProjectTitle {\n    height: 30px;\n    border-radius: 30px;\n    color: #091540;\n    border: 1px solid black;\n    text-align: center;\n}\n\n#todoIcon {\n    width: 100px;\n    height: 100px;\n}\n", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;IACI,oBAAoB;IACpB,+DAAkD;AACtD;;AAEA;IACI,yBAAyB;IACzB,aAAa;IACb,SAAS;IACT,oBAAoB;AACxB;;AAEA;IACI,0BAA0B;AAC9B;;AAEA;IACI,aAAa;IACb,uBAAuB;IACvB,aAAa;IACb,yBAAyB;IACzB,uBAAuB;AAC3B;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,8BAA8B;IAC9B,YAAY;IACZ,qBAAqB;IACrB,SAAS;IACT,yBAAyB;AAC7B;;AAEA;;IAEI,aAAa;AACjB;;AAEA;IACI,yBAAyB;IACzB,uCAAuC;IACvC,cAAc;IACd,mBAAmB;IACnB,eAAe;IACf,eAAe;IACf,iBAAiB;IACjB,aAAa;AACjB;;AAEA;IACI,YAAY;IACZ,WAAW;IACX,YAAY;AAChB;;AAEA;IACI,yBAAyB;IACzB,cAAc;AAClB;;AAEA;IACI,yBAAyB;IACzB,qDAAqD;AACzD;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,YAAY;AAChB;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,YAAY;IACZ,WAAW;IACX,OAAO;AACX;;AAEA;IACI,gBAAgB;IAChB,eAAe;AACnB;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,YAAY;IACZ,QAAQ;IACR,gBAAgB;IAChB,mBAAmB;AACvB;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,kBAAkB;IAClB,YAAY;IACZ,YAAY;IACZ,yBAAyB;IACzB,6BAA6B;AACjC;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,YAAY;IACZ,mBAAmB;IACnB,cAAc;IACd,uBAAuB;IACvB,kBAAkB;AACtB;;AAEA;IACI,YAAY;IACZ,aAAa;AACjB","sourcesContent":["@font-face {\n    font-family: \"Rubik\";\n    src: url(\"./Rubik-Regular.ttf\") format(\"truetype\");\n}\n\nbody {\n    background-color: #f0f8ff;\n    height: 100vh;\n    margin: 0;\n    font-family: \"Rubik\";\n}\n\nbutton:active {\n    transform: translateY(2px);\n}\n\nfooter {\n    display: flex;\n    justify-content: center;\n    padding: 15px;\n    background-color: #abd2fa;\n    border: 1px solid black;\n}\n\nheader {\n    display: flex;\n    flex-direction: row;\n    border-bottom: 1px solid black;\n    padding: 5px;\n    padding-bottom: -10px;\n    gap: 20px;\n    background-color: #abd2fa;\n}\n\ninput:active,\ninput:focus {\n    outline: none;\n}\n\n.addBtn {\n    background-color: #091540;\n    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);\n    color: #f0f8ff;\n    border-radius: 10px;\n    border: #f0f8ff;\n    cursor: pointer;\n    font-size: larger;\n    padding: 10px;\n}\n\n.createBtn {\n    height: 30px;\n    width: 76px;\n    padding: 3px;\n}\n\n.addBtn:hover {\n    background-color: #f0f8ff;\n    color: #091540;\n}\n\n.addBtn:active {\n    background-color: #f0f8ff;\n    box-shadow: inset 2px 3px 10px 1px rgba(0, 0, 0, 0.8);\n}\n\n.container {\n    display: flex;\n    flex-direction: column;\n    height: 100%;\n}\n\n.hiddenDiv {\n    display: none;\n}\n\n.main {\n    display: flex;\n    flex-direction: column;\n    height: 100%;\n    width: 100%;\n    flex: 1;\n}\n\n.mainHeader {\n    margin-top: 50px;\n    font-size: 40px;\n}\n\n.newProjectForm {\n    display: flex;\n    flex-direction: column;\n    padding: 6px;\n    gap: 6px;\n    margin-top: 10px;\n    align-items: center;\n}\n\n.sideBar {\n    display: flex;\n    flex-direction: column;\n    text-align: center;\n    height: 100%;\n    width: 250px;\n    background-color: #7692ff;\n    border-right: 1px solid black;\n}\n\n.sideBarHeader {\n    font-size: x-large;\n}\n\n#newProjectTitle {\n    height: 30px;\n    border-radius: 30px;\n    color: #091540;\n    border: 1px solid black;\n    text-align: center;\n}\n\n#todoIcon {\n    width: 100px;\n    height: 100px;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "@font-face {\n    font-family: \"Rubik\";\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") format(\"truetype\");\n}\n\nbody {\n    background-color: #f0f8ff;\n    height: 100vh;\n    margin: 0;\n    font-family: \"Rubik\";\n}\n\nbutton:active {\n    transform: translateY(2px);\n}\n\nfooter {\n    display: flex;\n    justify-content: center;\n    padding: 15px;\n    background-color: #abd2fa;\n    border: 1px solid black;\n}\n\nheader {\n    display: flex;\n    flex-direction: row;\n    border-bottom: 1px solid black;\n    padding: 5px;\n    padding-bottom: -10px;\n    gap: 20px;\n    background-color: #abd2fa;\n}\n\ninput:active,\ninput:focus {\n    outline: none;\n}\n\n.addBtn {\n    background-color: #091540;\n    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);\n    color: #f0f8ff;\n    border-radius: 10px;\n    border: #f0f8ff;\n    cursor: pointer;\n    font-size: larger;\n    padding: 10px;\n    align-self: center;\n    justify-self: center;\n}\n\n.closeIcon {\n    align-self: flex-end;\n    font-size: 20px;\n    margin: 6px;\n    cursor: pointer;\n}\n\n.createBtn {\n    height: 30px;\n    width: 76px;\n    padding: 3px;\n}\n\n.addBtn:hover {\n    background-color: #f0f8ff;\n    color: #091540;\n}\n\n.addBtn:active {\n    background-color: #f0f8ff;\n    box-shadow: inset 2px 3px 10px 1px rgba(0, 0, 0, 0.8);\n}\n\n.container {\n    display: flex;\n    flex-direction: column;\n    height: 100%;\n}\n\n.hiddenDiv {\n    display: none;\n}\n\n.main {\n    display: flex;\n    flex-direction: row;\n    height: 100%;\n    width: 100%;\n    flex: 1;\n}\n\n.mainHeader {\n    margin-top: 50px;\n    font-size: 40px;\n}\n\n.newProjectForm {\n    display: flex;\n    flex-direction: column;\n    padding: 6px;\n    gap: 6px;\n    margin-top: 10px;\n    align-items: center;\n}\n\n.sideBar {\n    text-align: center;\n    display: flex;\n    flex-direction: column;\n    position: fixed;\n    text-align: center;\n    height: 100%;\n    width: 250px;\n    background-color: #7692ff;\n    border-right: 1px solid black;\n    align-content: center;\n}\n\n.sideBarHeader {\n    font-size: x-large;\n}\n\n#closeIcon {\n    align-self: flex-end;\n    font-size: 20px;\n    margin: 6px;\n    cursor: pointer;\n}\n\n#newProjectTitle {\n    height: 30px;\n    border-radius: 30px;\n    color: #091540;\n    border: 1px solid black;\n    text-align: center;\n}\n\n#todoIcon {\n    width: 100px;\n    height: 100px;\n}\n", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;IACI,oBAAoB;IACpB,+DAAkD;AACtD;;AAEA;IACI,yBAAyB;IACzB,aAAa;IACb,SAAS;IACT,oBAAoB;AACxB;;AAEA;IACI,0BAA0B;AAC9B;;AAEA;IACI,aAAa;IACb,uBAAuB;IACvB,aAAa;IACb,yBAAyB;IACzB,uBAAuB;AAC3B;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,8BAA8B;IAC9B,YAAY;IACZ,qBAAqB;IACrB,SAAS;IACT,yBAAyB;AAC7B;;AAEA;;IAEI,aAAa;AACjB;;AAEA;IACI,yBAAyB;IACzB,uCAAuC;IACvC,cAAc;IACd,mBAAmB;IACnB,eAAe;IACf,eAAe;IACf,iBAAiB;IACjB,aAAa;IACb,kBAAkB;IAClB,oBAAoB;AACxB;;AAEA;IACI,oBAAoB;IACpB,eAAe;IACf,WAAW;IACX,eAAe;AACnB;;AAEA;IACI,YAAY;IACZ,WAAW;IACX,YAAY;AAChB;;AAEA;IACI,yBAAyB;IACzB,cAAc;AAClB;;AAEA;IACI,yBAAyB;IACzB,qDAAqD;AACzD;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,YAAY;AAChB;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,YAAY;IACZ,WAAW;IACX,OAAO;AACX;;AAEA;IACI,gBAAgB;IAChB,eAAe;AACnB;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,YAAY;IACZ,QAAQ;IACR,gBAAgB;IAChB,mBAAmB;AACvB;;AAEA;IACI,kBAAkB;IAClB,aAAa;IACb,sBAAsB;IACtB,eAAe;IACf,kBAAkB;IAClB,YAAY;IACZ,YAAY;IACZ,yBAAyB;IACzB,6BAA6B;IAC7B,qBAAqB;AACzB;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,oBAAoB;IACpB,eAAe;IACf,WAAW;IACX,eAAe;AACnB;;AAEA;IACI,YAAY;IACZ,mBAAmB;IACnB,cAAc;IACd,uBAAuB;IACvB,kBAAkB;AACtB;;AAEA;IACI,YAAY;IACZ,aAAa;AACjB","sourcesContent":["@font-face {\n    font-family: \"Rubik\";\n    src: url(\"./Rubik-Regular.ttf\") format(\"truetype\");\n}\n\nbody {\n    background-color: #f0f8ff;\n    height: 100vh;\n    margin: 0;\n    font-family: \"Rubik\";\n}\n\nbutton:active {\n    transform: translateY(2px);\n}\n\nfooter {\n    display: flex;\n    justify-content: center;\n    padding: 15px;\n    background-color: #abd2fa;\n    border: 1px solid black;\n}\n\nheader {\n    display: flex;\n    flex-direction: row;\n    border-bottom: 1px solid black;\n    padding: 5px;\n    padding-bottom: -10px;\n    gap: 20px;\n    background-color: #abd2fa;\n}\n\ninput:active,\ninput:focus {\n    outline: none;\n}\n\n.addBtn {\n    background-color: #091540;\n    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);\n    color: #f0f8ff;\n    border-radius: 10px;\n    border: #f0f8ff;\n    cursor: pointer;\n    font-size: larger;\n    padding: 10px;\n    align-self: center;\n    justify-self: center;\n}\n\n.closeIcon {\n    align-self: flex-end;\n    font-size: 20px;\n    margin: 6px;\n    cursor: pointer;\n}\n\n.createBtn {\n    height: 30px;\n    width: 76px;\n    padding: 3px;\n}\n\n.addBtn:hover {\n    background-color: #f0f8ff;\n    color: #091540;\n}\n\n.addBtn:active {\n    background-color: #f0f8ff;\n    box-shadow: inset 2px 3px 10px 1px rgba(0, 0, 0, 0.8);\n}\n\n.container {\n    display: flex;\n    flex-direction: column;\n    height: 100%;\n}\n\n.hiddenDiv {\n    display: none;\n}\n\n.main {\n    display: flex;\n    flex-direction: row;\n    height: 100%;\n    width: 100%;\n    flex: 1;\n}\n\n.mainHeader {\n    margin-top: 50px;\n    font-size: 40px;\n}\n\n.newProjectForm {\n    display: flex;\n    flex-direction: column;\n    padding: 6px;\n    gap: 6px;\n    margin-top: 10px;\n    align-items: center;\n}\n\n.sideBar {\n    text-align: center;\n    display: flex;\n    flex-direction: column;\n    position: fixed;\n    text-align: center;\n    height: 100%;\n    width: 250px;\n    background-color: #7692ff;\n    border-right: 1px solid black;\n    align-content: center;\n}\n\n.sideBarHeader {\n    font-size: x-large;\n}\n\n#closeIcon {\n    align-self: flex-end;\n    font-size: 20px;\n    margin: 6px;\n    cursor: pointer;\n}\n\n#newProjectTitle {\n    height: 30px;\n    border-radius: 30px;\n    color: #091540;\n    border: 1px solid black;\n    text-align: center;\n}\n\n#todoIcon {\n    width: 100px;\n    height: 100px;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -39,6 +39,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, "@font-face {\n    font-family: \"Rubik
   \*****************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 /*
@@ -150,6 +151,7 @@ module.exports = function (cssWithMappingToString) {
   \********************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 module.exports = function (url, options) {
@@ -188,6 +190,7 @@ module.exports = function (url, options) {
   \************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 module.exports = function (item) {
@@ -219,6 +222,7 @@ module.exports = function (item) {
   \***********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -273,6 +277,7 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
   \****************************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 var stylesInDOM = [];
@@ -386,6 +391,7 @@ module.exports = function (list, options) {
   \********************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 var memo = {};
@@ -434,6 +440,7 @@ module.exports = insertBySelector;
   \**********************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 /* istanbul ignore next  */
@@ -454,6 +461,7 @@ module.exports = insertStyleElement;
   \**********************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 
 
 /* istanbul ignore next  */
@@ -475,6 +483,7 @@ module.exports = setAttributesWithoutAttributes;
   \***************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 /* istanbul ignore next  */
@@ -554,6 +563,7 @@ module.exports = domAPI;
   \*********************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 /* istanbul ignore next  */
@@ -579,11 +589,80 @@ module.exports = styleTagTransform;
   \*********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/png;base64,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ybWo6NTSdD6pOcgx4G7gcRJ08sRDWsNxsQiiBmwA/gMVRZwX23CSwAGeAu5GsAeJTFfnQwbS7v0tnWDroDmLgc8Ct5JD5xPkGH0ot+63pKBLt+HeC9O7RTNjAfkxSSVXAVuAiylog1Fs4AXUc3mGNKr8iWQ0I8O/vwscB3StDuU9vBlYmMk25CDtwDeBHwR6oyc9lQa+psxtzM5KSo7SBsIAeQkqoPResrgRNUsMoQy8bQJaJEQzNerHkrWcLF9zF7ryG3iBdwG3A5vIkwOskiAEPA98DXgOKYMYBr41C7LSmKwn5d3X3EWnoVMdtStRgnAbaiPKXNMIAZSb/BEEz+p9oX57QQm+C7JbpD3rAjCK/0AnGA5E9ApgPcrz9W5gQS61c5ZIoAeVrPl9YNf655oHXrxsLZubcsP0ybkH69vXg2HYOI4oAVYDVwPXAsvJn+khhKrF+1PULuuDQtohKUx8jVXJfXOKyTkBGIu/uRuB1KTal9gEfBC4AjiL3KtoGkIVYXwSVXV1PypD18mGcRcvOS0Ao8RWDQikKdXehHNR08OVKBdzJRBfDZnUYaEcN8eAP6LW76/FCm5aQEqDNukiLwRgIv6WboQjNSmoQGmDFahqJpuAOpRAeFCOp2RPkbRRBywFUB1+ArXleg8qF78NVX0jp0f6dOSlAEzE39wNOBoID1CFci4tib1WAmuABtQ+hhKUYJic9kQ6qFEbRqnyQdTIfhlVXPEtlMOmA0mPQA5LhMykwyZd/D9cqMJVATV7VAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxOS0wMy0yOVQxMTowMDowMSswMDowMJjtNvgAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTktMDMtMjlUMTE6MDA6MDErMDA6MDDpsI5EAAAARnRFWHRzb2Z0d2FyZQBJbWFnZU1hZ2ljayA2LjcuOC05IDIwMTktMDItMDEgUTE2IGh0dHA6Ly93d3cuaW1hZ2VtYWdpY2sub3JnQXviyAAAABh0RVh0VGh1bWI6OkRvY3VtZW50OjpQYWdlcwAxp/+7LwAAABh0RVh0VGh1bWI6OkltYWdlOjpoZWlnaHQANTEywNBQUQAAABd0RVh0VGh1bWI6OkltYWdlOjpXaWR0aAA1MTIcfAPcAAAAGXRFWHRUaHVtYjo6TWltZXR5cGUAaW1hZ2UvcG5nP7JWTgAAABd0RVh0VGh1bWI6Ok1UaW1lADE1NTM4NTcyMDGPbYYDAAAAE3RFWHRUaHVtYjo6U2l6ZQAyMC40S0JCLOdHcwAAAEB0RVh0VGh1bWI6OlVSSQBmaWxlOi8vLi91cGxvYWRzLzU2L3Z0U3l3YjkvMTg1OS9jaGVja2xpc3RfMTE3OTY2LnBuZz3g3wEAAAAASUVORK5CYII=");
+
+/***/ }),
+
+/***/ "./src/classes.js":
+/*!************************!*\
+  !*** ./src/classes.js ***!
+  \************************/
+/***/ ((module) => {
+
+function createProject(title) {
+    let tasks = [];
+
+    const createTask = (name, dueDate, description, priority) => {
+        return { name, dueDate, description, priority };
+    };
+
+    const getTasks = () => tasks;
+
+    const addTask = (name, dueDate, description, priority) => {
+        tasks.push(createTask(name, dueDate, description, priority));
+    };
+
+    const removeTask = (name) =>
+        (tasks = tasks.filter((task) => task.name != name));
+
+    const taskCount = () => tasks.length;
+
+    return { addTask, removeTask, taskCount, getTasks };
+}
+
+module.exports = { createProject };
+
+
+/***/ }),
+
+/***/ "./src/domStuff.js":
+/*!*************************!*\
+  !*** ./src/domStuff.js ***!
+  \*************************/
+/***/ ((module) => {
+
+function toggleForm() {
+    const hiddenDiv = document.querySelector(".hiddenDiv");
+    const styles = window.getComputedStyle(hiddenDiv);
+    const prop = styles.getPropertyValue("display");
+    hiddenDiv.style.display = prop === "block" ? "none" : "block";
+}
+
+// function toggleNav() {
+//     const nav = document.querySelector(".sideBar");
+//     const navHeader = document.querySelector(".sideBarHeader");
+//     const addBtn = document.querySelector(".addBtn");
+
+//     const addBtnStyles = window.getComputedStyle(addBtn);
+//     const navHeaderStyles = window.getComputedStyle(navHeader);
+//     const styles = window.getComputedStyle(nav);
+
+//     const prop = styles.getPropertyValue("width");
+//     const navProp = navHeaderStyles.getPropertyValue("display");
+//     const addbtnProp = addBtnStyles.getPropertyValue("display");
+
+//     nav.style.width = prop === "250px" ? "30px" : "250px";
+//     navHeader.style.display = navProp === "block" ? "none" : "block";
+//     addBtn.style.display = addbtnProp === "none" ? "block" : "none";
+// }
+
+module.exports = { toggleForm, toggleNav };
+
 
 /***/ }),
 
@@ -593,6 +672,7 @@ __webpack_require__.r(__webpack_exports__);
   \*******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "da39336cfcac7980f2f1.ttf";
 
 /***/ })
@@ -700,23 +780,32 @@ module.exports = __webpack_require__.p + "da39336cfcac7980f2f1.ttf";
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
+// This entry need to be wrapped in an IIFE because it need to be in strict mode.
 (() => {
+"use strict";
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ "./src/style.css");
 /* harmony import */ var _images_todoIcon_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/todoIcon.png */ "./src/images/todoIcon.png");
+/* harmony import */ var _domStuff_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./domStuff.js */ "./src/domStuff.js");
+/* harmony import */ var _domStuff_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_domStuff_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _classes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./classes.js */ "./src/classes.js");
+/* harmony import */ var _classes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_classes_js__WEBPACK_IMPORTED_MODULE_3__);
+
+
 
 
 
 document.getElementById("todoIcon").src = _images_todoIcon_png__WEBPACK_IMPORTED_MODULE_1__["default"];
 
-function toggleForm() {
-    const hiddenDiv = document.querySelector(".hiddenDiv");
-    hiddenDiv.classList.toggle("hiddenDiv");
-}
+document.querySelector(".addBtn").onclick = _domStuff_js__WEBPACK_IMPORTED_MODULE_2__.toggleForm;
+document.querySelector(".createBtn").onclick = _domStuff_js__WEBPACK_IMPORTED_MODULE_2__.toggleForm;
+
+// const proj1 = Project.createProject("Coding");
+// console.log(proj1);
+// proj1.addTask("Practice", "5/25/2020", "get better", "High");
 
 })();
 
