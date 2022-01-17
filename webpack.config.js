@@ -28,17 +28,20 @@ module.exports = {
     module: {
         rules: [
             {
+                test: /\.html$/,
+                loader: "html-loader",
+            },
+            {
                 test: /\.css$/i,
                 use: ["style-loader", "css-loader"],
             },
             {
-                test: /\.(png|jp(e*)g|svg)$/,
+                test: /\.png$/,
                 use: [
                     {
                         loader: "url-loader",
                         options: {
-                            limit: 8000,
-                            name: "images/[hash]-[name].[ext]",
+                            name: "images/[name].[ext]",
                             publicPath: "assets",
                         },
                     },

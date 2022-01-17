@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="/57011448dc08b9372b5e.css" />
         <title>To-Do List</title>
     <script defer src="/index.bundle.js"></script></head>
     <body>
@@ -16,7 +16,9 @@
             <div class="main">
                 <div class="sideBar">
                     <h3 class="sideBarHeader">My Projects</h3>
-                    <div class="projectList"></div>
+                    <div class="projectList">
+                        <ul class="projects"></ul>
+                    </div>
                     <div class="newProjectDiv">
                         <button class="addBtn">+ Add Project</button>
                         <div class="hiddenDiv">
@@ -39,7 +41,50 @@
                         </div>
                     </div>
                 </div>
-                <div class="taskArea"></div>
+                <div class="taskArea">
+                    <div id="popupDiv">
+                        <form action="#" name="taskForm">
+                            <img
+                                src="/d3064614d849764e0c6f.png"
+                                id="closeIcon"
+                                alt="Close Icon"
+                            />
+                            <h2>New Task</h2>
+                            <hr />
+                            <input
+                                type="text"
+                                name="taskName"
+                                placeholder="Task Name"
+                                id="taskName"
+                            />
+                            <label for="dueDate">Due Date:</label>
+                            <input
+                                type="date"
+                                value="Due Date"
+                                name="dueDate"
+                                id="dueDate"
+                            />
+                            <select name="priority" id="priority-select">
+                                <option value="priority">Priority</option>
+                                <option value="high">High</option>
+                                <option value="moderate">Moderate</option>
+                                <option value="low">Low</option>
+                            </select>
+                            <textarea
+                                name="description"
+                                id="taskDescription"
+                                cols="30"
+                                rows="5"
+                                placeholder="Short Description"
+                            ></textarea>
+                            <button
+                                type="submit"
+                                form="taskForm"
+                                onclick="closeModal()"
+                            ></button>
+                        </form>
+                    </div>
+                </div>
             </div>
             <footer>Made with &#128420; by Joshua Hinchey.</footer>
         </div>

@@ -41,7 +41,61 @@
                         </div>
                     </div>
                 </div>
-                <div class="taskArea"></div>
+                <div class="taskArea">
+                    <div class="taskAreaForm">
+                        <div id="popupDiv">
+                            <form
+                                action="#"
+                                class="taskForm"
+                                id="taskForm"
+                                name="taskForm"
+                            >
+                                <h2>New Task</h2>
+                                <hr />
+                                <input
+                                    type="text"
+                                    name="taskName"
+                                    placeholder="Task Name"
+                                    id="taskName"
+                                />
+                                <!-- <label for="dueDate">Due Date:</label> -->
+                                <input
+                                    type="date"
+                                    name="dueDate"
+                                    id="dueDate"
+                                />
+                                <select name="priority" id="priority-select">
+                                    <option value="priority">Priority</option>
+                                    <option value="high">High</option>
+                                    <option value="moderate">Moderate</option>
+                                    <option value="low">Low</option>
+                                </select>
+                                <textarea
+                                    name="description"
+                                    id="taskDescription"
+                                    cols="30"
+                                    rows="5"
+                                    placeholder="Short Description"
+                                ></textarea>
+                                <button
+                                    id="submit"
+                                    type="submit"
+                                    form="taskForm"
+                                    onclick="closeModal()"
+                                >
+                                    Submit
+                                </button>
+                                <a href="#" id="closeLink">Close</a>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="taskAreaHeader">
+                        <h3 class="currentProjectHeader"></h3>
+                        <button id="addTaskBtn" class="addBtn">
+                            + Add Task
+                        </button>
+                    </div>
+                </div>
             </div>
             <footer>Made with &#128420; by Joshua Hinchey.</footer>
         </div>

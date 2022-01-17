@@ -32,9 +32,39 @@ header {
     background-color: #abd2fa;
 }
 
+h2 {
+    background-color: #abd2fa;
+    padding: 20px 35px;
+    margin: -10px -50px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+hr {
+    margin: 10px -50px;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+label {
+    margin-bottom: 1px;
+}
+
 input:active,
 input:focus {
     outline: none;
+}
+
+textarea {
+    width: 82%;
+    height: 95px;
+    padding: 10px;
+    resize: none;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-family: "Rubik";
 }
 
 ul {
@@ -141,7 +171,7 @@ ul {
     flex-direction: column;
     text-align: center;
     height: 100%;
-    width: 250px;
+    width: 300px;
     background-color: #7692ff;
     border-right: 1px solid black;
     align-content: center;
@@ -152,12 +182,102 @@ ul {
     font-size: x-large;
 }
 
+.taskForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    min-width: 250px;
+    padding: 10px 50px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-family: "Rubik";
+    background-color: #fff;
+}
+
+.taskForm > input,
+.taskForm > select {
+    margin: 5px;
+    width: 200px;
+}
+
+.taskArea {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.taskAreaForm {
+    width: 100%;
+    height: 100%;
+    opacity: 0.95;
+    top: 0;
+    left: 0;
+    display: none;
+    position: fixed;
+    background-color: #313131;
+    overflow: auto;
+}
+
+.taskAreaHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#addTaskBtn {
+    position: absolute;
+    right: 20px;
+}
+
+#closeIcon {
+    width: 20px;
+}
+
+#closeLink {
+    margin-top: 4px;
+    align-self: center;
+    text-decoration: none;
+}
+
+#closeLink:hover {
+    text-decoration: underline;
+}
+
 #newProjectTitle {
     height: 30px;
     border-radius: 30px;
     color: #091540;
     border: 1px solid black;
     text-align: center;
+}
+
+#popupDiv {
+    position: absolute;
+    left: 50%;
+    top: 17%;
+    margin-left: -202px;
+    font-family: "Raleway", sans-serif;
+}
+
+#submit {
+    width: 100px;
+    background-color: #091540;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    color: #f0f8ff;
+    border-radius: 10px;
+    border: #f0f8ff;
+    cursor: pointer;
+    font-size: larger;
+    padding: 10px;
+    align-self: center;
+    justify-self: center;
+}
+
+#submit:hover {
+    background-color: #f0f8ff;
+    color: #091540;
 }
 
 #todoIcon {
