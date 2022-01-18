@@ -27,6 +27,7 @@
                                 class="newProjectForm"
                             >
                                 <input
+                                    name="newProjectTitle"
                                     type="text"
                                     id="newProjectTitle"
                                     placeholder="Project Name"
@@ -42,6 +43,7 @@
                     </div>
                 </div>
                 <div class="taskArea">
+                    <!-- Pop up form starts here -->
                     <div class="taskAreaForm">
                         <div id="popupDiv">
                             <form
@@ -49,6 +51,7 @@
                                 class="taskForm"
                                 id="taskForm"
                                 name="taskForm"
+                                onsubmit="return false"
                             >
                                 <h2>New Task</h2>
                                 <hr />
@@ -58,7 +61,6 @@
                                     placeholder="Task Name"
                                     id="taskName"
                                 />
-                                <!-- <label for="dueDate">Due Date:</label> -->
                                 <input
                                     type="date"
                                     name="dueDate"
@@ -89,12 +91,14 @@
                             </form>
                         </div>
                     </div>
+                    <!-- Pop form ends here -->
                     <div class="taskAreaHeader">
                         <h3 class="currentProjectHeader"></h3>
                         <button id="addTaskBtn" class="addBtn">
                             + Add Task
                         </button>
                     </div>
+                    <div class="tableArea"></div>
                 </div>
             </div>
             <footer>Made with &#128420; by Joshua Hinchey.</footer>
